@@ -1,3 +1,4 @@
+import 'package:e_dokan/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -6,8 +7,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(useMaterial3: true),
-      darkTheme: ThemeData(useMaterial3: true),
+      theme: UAppTheme.lightTheme,
+      darkTheme: UAppTheme.darkTheme,
       home: Scaffold(),
     );
   }
