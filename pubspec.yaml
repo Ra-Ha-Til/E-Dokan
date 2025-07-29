@@ -35,7 +35,7 @@ assets:
 #-------------[ASSETS]--------------------
 
 fonts:
-  - family: ""
+  - family: "Nunito"
   - fonts:
       - asset: assets/fonts/Nunito-Light.ttf
         weight: 300
