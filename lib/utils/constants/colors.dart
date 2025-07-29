@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-class UColors {
+class UColors{
+
   UColors._();
+
 
   // Primary Color
   static const Color primary = Color(0xFF0857A0);
