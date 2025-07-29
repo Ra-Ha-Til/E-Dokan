@@ -37,3 +37,18 @@ assets:
 fonts:
   - family: ""
   - fonts:
+      - asset: assets/fonts/Nunito-Light.ttf
+        weight: 300
+      - asset: assets/fonts/Nunito-Bold.ttf
+        weight: 800
+      - asset: assets/fonts/Nunito-Italic.ttf
+        style: italic
+      - asset: assets/fonts/Nunito-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Nunito-MediumItalic.ttf
+        weight: 500
+        style: italic
+      - asset: assets/fonts/Nunito-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Nunito-SemiBold.ttf
+        weight: 600
