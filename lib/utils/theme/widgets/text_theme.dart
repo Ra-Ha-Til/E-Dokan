@@ -21,6 +21,7 @@ class UTextTheme {
     labelMedium: const TextStyle().copyWith(fontSize:12.0, fontWeight: FontWeight.w600, color: UColors.dark),
     
   );
+  
   static TextTheme darkTheme = TextTheme();
   
       headlineLarge: const TextStyle().copyWith(fontSize:25.0, fontWeight: FontWeight.bold, color: UColors.light),

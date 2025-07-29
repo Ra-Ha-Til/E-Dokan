@@ -16,7 +16,7 @@ class UAppTheme {
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     fontFamily: '',
-    brightness: Brightness.light,
+    brightness: Brightness.dark,
     primaryColor: UColors.primary,
     disabledColor: UColors.grey,
     textTheme: UTextTheme.darkTheme,
