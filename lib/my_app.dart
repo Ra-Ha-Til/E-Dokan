@@ -1,5 +1,6 @@
 import 'package:e_dokan/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
+import 'features/authentication/screens/onboarding/onboarding.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: UAppTheme.lightTheme,
       darkTheme: UAppTheme.darkTheme,
-      home: Scaffold(),
+      home: OnboardingScreen(),
     );
   }
 }
