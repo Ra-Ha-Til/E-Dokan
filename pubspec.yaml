@@ -16,6 +16,10 @@ dependencies:
 
   cupertino_icons: ^1.0.8
 
+  #-----------[Util]------------------
+
+  flutter_native_splash: ^2.4.6
+
 #-------------[PACKAGES END]--------------------
 
 dev_dependencies:
