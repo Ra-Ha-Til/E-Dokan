@@ -11,9 +11,9 @@ class UTextTheme {
       color: UColors.dark,
     ),
     headlineMedium: const TextStyle().copyWith(
-      fontSize: 24.0,
+      fontSize: 22.0,
       fontWeight: FontWeight.w600,
-      color: UColors.dark,
+      color: UColors.black,
     ),
     headlineSmall: const TextStyle().copyWith(
       fontSize: 18.0,
