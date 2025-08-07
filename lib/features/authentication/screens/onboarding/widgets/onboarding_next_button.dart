@@ -11,9 +11,9 @@ class OnboardingNextButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final controller = OnBoardingController.instance;
     return Positioned(
-      left: 0,
-      right: 0,
-      bottom: USizes.spaceBtwItems / 3,
+      left: USizes.defaultSpace,
+      right: USizes.defaultSpace,
+      bottom: USizes.spaceBtwItems,
       child: UElevatedButton(
         onPressed: controller.nextPage,
         child: Obx(

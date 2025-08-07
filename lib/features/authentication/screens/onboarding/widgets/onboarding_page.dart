@@ -1,4 +1,3 @@
-import 'package:e_dokan/utils/constants/sizes.dart';
 import 'package:e_dokan/utils/helpers/device_helpers.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
