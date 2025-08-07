@@ -1,4 +1,4 @@
-import 'package:e_dokan/common/widgets/button/elevated_btton.dart';
+import 'package:e_dokan/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:e_dokan/features/authentication/screens/onboarding/widgets/onboarding_dot_button.dart';
 import 'package:e_dokan/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
 import 'package:e_dokan/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
@@ -6,9 +6,8 @@ import 'package:e_dokan/features/authentication/screens/onboarding/widgets/onboa
 import 'package:e_dokan/utils/constants/images.dart';
 import 'package:e_dokan/utils/constants/sizes.dart';
 import 'package:e_dokan/utils/constants/texts.dart';
-import 'package:e_dokan/utils/helpers/device_helpers.dart';
 import 'package:flutter/material.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+import 'package:get/get.dart';
 
 //This page has 4 section
 //1. Skip button (right side at the top)
@@ -21,6 +20,7 @@ class OnboardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = Get.put(OnBoardingController());
     return Scaffold(
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: USizes.defaultSpace),
@@ -28,6 +28,8 @@ class OnboardingScreen extends StatelessWidget {
           children: [
             //2.Scrollable Page
             PageView(
+              controller: controller.pageController,
+              onPageChanged: controller.updatePageIndicator,
               children: [
                 //1st animation page
                 OnBoardingPage(
