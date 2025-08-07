@@ -33,13 +33,13 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-#-------------[ASSETS]--------------------
+ #-------------[ASSETS]--------------------
 
   assets:
     - assets/logo/
     - assets/animations/
 
-#-------------[FONTS]--------------------
+ #-------------[FONTS]--------------------
 
   fonts:
     - family: "Nunito"
